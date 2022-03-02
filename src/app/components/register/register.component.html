@@ -1,0 +1,25 @@
+
+<div id="register-form">
+    <h1>Register</h1>
+    <span id="email" class="p-float-label">
+        <input type="email" pInputText [(ngModel)]="email">
+        <label for="float-input">Email</label>
+    </span>
+    <span id="password" class="p-float-label">
+        <input type="password" pInputText [(ngModel)]="password">
+        <label for="float-input">Password</label>
+    </span>
+    
+    <p-button id="register-btn" label="Register account" (click)="register()"></p-button>
+
+    <div class="links">
+        <a class="login" href="login">
+            <i class="pi pi-user"></i>
+            Already have an account?
+        </a>
+        <a class="recover-password" href="recover-password">
+            <i class="pi pi-question-circle"></i>
+            Did you forgot your password?
+        </a>
+    </div>
+</div>

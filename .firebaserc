@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "coleccion-animales-angular": {
+      "hosting": {
+        "Angular-Empty-Project": [
+          "coleccion-animales-angular"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "coleccion-animales-angular"
+  }
+}

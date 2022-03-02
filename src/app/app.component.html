@@ -1,0 +1,8 @@
+<nav id="navbar" *ngIf="authService.getCurrentUser()">
+    <div class="nav-item" (click)="goToHome()">Home</div>
+    <div class="nav-item" (click)="goToProfile()">Profile</div>
+    <div class="nav-item log-out" (click)="logout()"><i class="pi pi-power-off"></i></div>
+    <!-- <div class="nav-item">Extra</div> -->
+</nav>
+<!-- This allows to go from one component to another using the path -->
+<router-outlet></router-outlet>

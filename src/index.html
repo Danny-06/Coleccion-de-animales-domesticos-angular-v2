@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pets collection</title>
+        <base href="/">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+        <meta name="theme-color" content="#444">
+        <meta name="color-scheme" content="dark">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" name="fontawesome" href="/assets/css/fontawesome/free-v4-font-face.min.css">
+        <script>
+        // Always remove text selection when the user clicks on any part of the document
+        // This is to avoid those annoying times when you want to remove the selection but you can't
+        window.addEventListener('mousedown', event => {
+          if (event.button === 0) window.getSelection().empty()
+        })
+        </script>
+    </head>
+    <body>
+        <app-root></app-root>
+    </body>
+</html>

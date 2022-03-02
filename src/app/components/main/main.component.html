@@ -1,0 +1,27 @@
+<!-- Pet descriptions generated from this link -->
+<!-- https://www.rangen.co.uk/world/petgen.php -->
+
+<div class="info">
+    <p-dropdown id="filter"
+        psdDropdown
+        [options]="filterOptions"
+        [(ngModel)]="filterSelected"
+        (onChange)="filterAnimals()"
+        optionLabel="name"
+    ></p-dropdown>
+    Check all the animals published for everyone
+</div>
+
+<div id="animals-list">
+    <div class="animal-card" *ngFor="let animal of animals" (click)="goTo('animal/' + animal.id)">
+        <div class="card-header">
+            <img [src]="animal.image" [alt]="animal.name" [style]="animal.imageStyle">
+        </div>
+        <div class="card-info">{{ animal.shortDescription }}</div>
+        <div class="properties">
+            <div class="favorite" hidden>⭐</div>
+            <div class="name">{{ animal.name }}</div>
+            <div class="type">{{ animalIcons[animal.type] }}</div>
+        </div>
+    </div>
+</div>

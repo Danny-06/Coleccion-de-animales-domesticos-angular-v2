@@ -1,0 +1,39 @@
+p-button span {
+  user-select: none;
+}
+
+
+#user-form {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+
+  font-size: 3.5rem;
+  text-align: center;
+  color: #a875f5;
+  text-shadow: 0.08em 0.08em 0.15em #000;
+  user-select: none;
+}
+
+#user-form #user-name,
+#user-form #user-name input,
+#user-form #user-details,
+#user-form #user-details textarea {
+  width: 100%;
+}
+
+#user-form #user-details textarea {
+  resize: none;
+  height: 10rem;
+}

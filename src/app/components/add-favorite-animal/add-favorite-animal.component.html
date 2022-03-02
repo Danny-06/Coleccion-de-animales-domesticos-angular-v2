@@ -1,0 +1,27 @@
+
+<div class="info">
+    <p-dropdown id="filter"
+        psdDropdown
+        [options]="filterOptions"
+        [(ngModel)]="filterSelected"
+        (onChange)="filterAnimals()"
+        optionLabel="name"
+    ></p-dropdown>
+    Select you favorite animals from the list
+</div>
+
+
+
+<div id="animals-list">
+    <div class="animal-card {{ isFavoriteAnimal(animal.id) ? 'favorite' : '' }}" *ngFor="let animal of animals" (click)="toggleFavoriteAnimal(animal.id)">
+        <div class="card-header">
+            <img [src]="animal.image" [alt]="animal.name" [style]="animal.imageStyle">
+        </div>
+        <div class="card-info">{{ animal.shortDescription }}</div>
+        <div class="properties">
+            <div class="name">{{ animal.name }}</div>
+            <div class="favorite" *ngIf="isFavoriteAnimal(animal.id)">⭐</div>
+            <div class="type">{{ animalIcons[animal.type] }}</div>
+        </div>
+    </div>
+</div>

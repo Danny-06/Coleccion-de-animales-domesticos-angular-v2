@@ -1,0 +1,12 @@
+<div id="animal-container">
+    <div class="animal-card">
+        <div class="animal-name">{{ animal.name }}</div>
+        <div class="animal-thumbnail">
+            <img class="animal-image" [src]="animal.image" [alt]="animal.name" [style]="animal.imageStyle">
+        </div>
+        <div class="animal-sex">Sex: {{ animal.sex ?? 'Not Found' }}</div>
+        <div class="animal-age">Age: {{ animal.age ?? 'Not found' }}</div>
+        <div class="animal-vaccinated">Vaccinated: {{ animal.vaccinated ? 'Yes' : 'No' }}</div>
+    </div>
+    <div class="animal-description">{{ animal.description }}</div>
+</div>

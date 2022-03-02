@@ -1,0 +1,15 @@
+<!-- Import PrimeNg stylesheet inside component -->
+<link rel="stylesheet" href="/styles.css">
+
+<div id="user-form">
+    <h1>Update user</h1>
+    <span id="user-name" class="p-float-label">
+        <input type="username" pInputText [(ngModel)]="user.name">
+        <label for="float-input">Username</label>
+    </span>
+    <span id="user-details" class="p-float-label">
+        <textarea pInputTextarea [(ngModel)]="user.details"></textarea>
+        <label for="float-input">Details (optional)</label>
+    </span>
+    <p-button id="update-user-btn" label="Update User" (click)="updateUser()"></p-button>
+</div>

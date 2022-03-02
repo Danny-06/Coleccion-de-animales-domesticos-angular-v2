@@ -1,0 +1,147 @@
+[
+  {
+    "id": "",
+    "type": "cat",
+    "name": "Buddy",
+    "shortDescription": "This cat is loving towards his owner",
+    "description": "He's a good hunter and a skilled mouser. He is a good climber and manages to sit on top of open doors.",
+    "image": "https://i.ibb.co/YL8C6RV/cat1.jpg"
+  },
+  {
+    "id": "",
+    "type": "cat",
+    "name": "Felix",
+    "shortDescription": "This super-friendly cat gets along well with other animals",
+    "description": "He's intelligent and knows some basic commands. He is clean. He loves to play and is always willing; he is very rough when playing. He seems to like to making noise for the sake of it.",
+    "image": "https://i.ibb.co/HTR8kd0/cat2.webp"
+  },
+  {
+    "id": "",
+    "type": "cat",
+    "name": "Jax",
+    "shortDescription": "He is a good climber and loves to be up high",
+    "description": "He's finicky and will sometimes simply refuse to eat. His favourite cat food flavour is meat and he likes to eat cooked chicken. He also likes to eat elastic bands.",
+    "image": "https://i.ibb.co/bJqXkMs/cat3.jpg"
+  },
+  {
+    "id": "",
+    "type": "cat",
+    "name": "Cooper",
+    "shortDescription": "He is street-smart",
+    "description": "He's smart and very crafty. He is generally just barely clean. He is extremely playful and can entertain himself for hours on end with his food. He likes to talk to people.",
+    "image": "https://i.ibb.co/Qn2G445/cat4.webp"
+  },
+  {
+    "id": "",
+    "type": "cat",
+    "name": "Jax",
+    "shortDescription": "He loves to nap in seemly uncomfortable places",
+    "description": "He's extremely stupid and is easily confused. He is generally extremely clean; he will not use a litter box if it has been used even once before. He is not very playful. He barely makes a sound.",
+    "image": "https://i.ibb.co/Jjnhqbg/cat5.png"
+  },
+  {
+    "id": "",
+    "type": "cat",
+    "name": "Rex",
+    "shortDescription": "He frequently tries to jump across furniture but usually misses or slips",
+    "description": "He's extremely bright, learns well and can be taught easily. He is not very clean and hates having her ears cleaned. He isn't very playful. He's usually quiet.",
+    "image": "https://i.ibb.co/LJxyWTd/cat6.webp"
+  },
+  {
+    "id": "",
+    "type": "dog",
+    "name": "Bandit",
+    "shortDescription": "Cyclists and skateboarders are his nemesis during walks",
+    "description": "He hates bathtime. He will go to the toilet anywhere, indoors or out. He is not very playful. He's usually silent except when he needs something.",
+    "image": "https://i.ibb.co/N3s98ST/dog1.jpg"
+  },
+  {
+    "id": "",
+    "type": "dog",
+    "name": "Ace",
+    "shortDescription": "He always starts a fight with himself in the mirror",
+    "description": "He will pull heavily on the lead during walks. He will frequently try to drag very large branches through very small gaps.",
+    "image": "https://i.ibb.co/G2Gzk3S/dog2.jpg"
+  },
+  {
+    "id": "",
+    "type": "dog",
+    "name": "Simba",
+    "shortDescription": "He loves to chase squirrels",
+    "description": "He's an extremely picky eater and will rarely even taste new foods. His favourite dog food brand is a cheap dry variety and he likes to eat cardboard as well.",
+    "image": "https://i.ibb.co/vJGQ5Bk/dog3.jpg"
+  },
+  {
+    "id": "",
+    "type": "dog",
+    "name": "Thor",
+    "shortDescription": "He cannot contain himself when food is being prepared",
+    "description": "He likes to pee on anything made of fabric. He frequently buries his toys in the garden. He will fight like a manic if anyone tries to trim his claws and he is terrified of plastic bags.",
+    "image": "https://i.ibb.co/Rzp435z/dog4.png"
+  },
+  {
+    "id": "",
+    "type": "dog",
+    "name": "Leo",
+    "shortDescription": "He is incredibly dramatic",
+    "description": "He's dopey and forgets things easily. He is fastidious and hates dirt. He barely ever plays or makes a sound.",
+    "image": "https://i.ibb.co/TPVZRNY/dog5.jpg"
+  },
+  {
+    "id": "",
+    "type": "dog",
+    "name": "Buster",
+    "shortDescription": "He's aware and likes to figure things out",
+    "description": "This gentle dog is extremely loving towards his owner, and will always come immediately when called. He does not pay any attention to strangers (but will allow himself to be touched if you can get him), and he will happily play with other animals.",
+    "image": "https://i.ibb.co/GcrBZdX/dog6.jpg"
+  },
+  {
+    "id": "",
+    "type": "parrot",
+    "name": "Sperry",
+    "shortDescription": "He's not a picky eater. His favourite food is sweet potato",
+    "description": "This parrot is distrustful toward his owner, but will sometimes respond when called. He is distrustful of strangers, and he will often fight other animals",
+    "image": "https://i.ibb.co/34TPVQX/parrot1.jpg"
+  },
+  {
+    "id": "",
+    "type": "parrot",
+    "name": "Ringo",
+    "shortDescription": "He is one of many previously owned by an illegal breeder",
+    "description": "This laid back parrot is not always friendly toward his owner, and never responds when called. He always tries to perch on any new person he meets, and he will happily play with other animals.",
+    "image": "https://i.ibb.co/JnvBWvS/parrot2.jpg",
+    "imageStyle": "object-position: left;"
+  },
+  {
+    "id": "",
+    "type": "parrot",
+    "name": "Pearly",
+    "shortDescription": "He was abandoned by his former owner",
+    "description": "He's smart and likes to figure things out. He is not very playful. He's talkative; VERY talkative. He's an extremely picky eater and will rarely even taste new foods. Her favourite food is broccoli.",
+    "image": "https://i.ibb.co/vJnWBCb/parrot3.webp"
+  },
+  {
+    "id": "",
+    "type": "parrot",
+    "name": "Zizzi",
+    "shortDescription": "He likes to sit in the bath",
+    "description": "He's extremely bright and knows basic commands and a few tricks. He is slightly playful and can entertain himself for hours on end.",
+    "image": "https://i.ibb.co/HD8vNt7/parrot4.jpg"
+  },
+  {
+    "id": "",
+    "type": "parrot",
+    "name": "Gigsy",
+    "shortDescription": "He was found wandering around in a public place",
+    "description": "He frequently demands to be pet. He absolutely hates the vacuum cleaner. He loves to chew everything. He loves to sing and he enjoys stepping on keyboards.",
+    "image": "https://i.ibb.co/X5Hdqj8/parrot5.jpg"
+  },
+  {
+    "id": "",
+    "type": "parrot",
+    "name": "Chaos",
+    "shortDescription": "He steals keys and other small objects",
+    "description": "This parrot is indifferent toward his owner, and hates to be touched. He is not afraid of strangers, and he gets along well with other animals.",
+    "image": "https://i.ibb.co/X4pybqZ/parrot6.jpg"
+  }
+]
