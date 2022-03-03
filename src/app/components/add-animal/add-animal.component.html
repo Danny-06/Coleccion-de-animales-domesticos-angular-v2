@@ -1,1 +1,38 @@
-<p>add-animal works!</p>
+<div id="animal-form">
+    <h1>Create a new animal for the global colletion</h1>
+    <div class="animal-name p-float-label">
+        <input pInputText [(ngModel)]="animal.name">
+        <label position="floating">Name</label>
+    </div>
+    <div class="animal-short-description p-float-label">
+        <textarea pInputTextarea [(ngModel)]="animal.shortDescription"></textarea>
+        <label position="floating">Short Description (optional)</label>
+    </div>
+    <div class="animal-description p-float-label">
+        <textarea pInputTextarea [(ngModel)]="animal.description"></textarea>
+        <label position="floating">Description (optional)</label>
+    </div>
+    <div class="animal-image">
+        <label for="">Profile Image</label>
+        <img [src]="animal.image" alt="" (error)="animal.image = animalService.defaultAnimalImage">
+        <p-fileUpload name="myfile[]" accept="image/*" (onSelect)="handleInputFile($event)"></p-fileUpload>
+    </div>
+    <div class="animal-type p-float-label">
+        <p-dropdown psdDropdown [(ngModel)]="animal.type" [options]="['dog', 'cat', 'parrot']"></p-dropdown>
+        <label position="floating">Type</label>
+    </div>
+    <div class="animal-sex p-float-label">
+        <p-dropdown psdDropdown [(ngModel)]="animal.sex" [options]="['M', 'F']"></p-dropdown>
+        <label position="floating">Sex</label>
+    </div>
+    <div class="animal-age p-float-label">
+        <input pInputText [(ngModel)]="animal.age" type="number" min="0">
+        <label position="floating">Age</label>
+    </div>
+    <div class="animal-vaccinated p-float-label">
+        <p-dropdown psdDropdown [(ngModel)]="animal.vaccinated" [options]="['Yes', 'No']"></p-dropdown>
+        <label position="floating">Vaccinated</label>
+    </div>
+
+    <p-button class="add-animal-btn" label="Add Animal" color="dark" fill="solid" (click)="addAnimal()"></p-button>
+</div>

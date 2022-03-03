@@ -18,16 +18,10 @@ export class MainComponent implements OnInit {
   host = this.root.shadowRoot
 
    // Drowpdown filter
-   filterOptions: {name: string}[] = [
-    {name: 'all'},
-    {name: 'cat'},
-    {name: 'dog'},
-    {name: 'parrot'},
-    {name: 'favorite'}
-  ]
+   filterOptions = ['all', 'cat', 'dog', 'parrot', 'favorite']
 
   @Input()
-  filterSelected: {name: string} = this.filterOptions[0]
+  filterSelected: string = this.filterOptions[0]
 
   // All animals available
   allAnimals: Animal[] = []
@@ -63,7 +57,7 @@ export class MainComponent implements OnInit {
   }
 
   filterAnimals() {
-    this.animals = this.animalService.filterAnimals(this.allAnimals, this.favoriteAnimals, this.filterSelected.name)
+    this.animals = this.animalService.filterAnimals(this.allAnimals, this.favoriteAnimals, this.filterSelected)
   }
 
   goTo(path: string) {

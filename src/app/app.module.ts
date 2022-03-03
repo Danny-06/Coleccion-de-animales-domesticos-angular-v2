@@ -43,6 +43,7 @@ import { AngularFireStorageModule } from '@angular/fire/compat/storage';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { RecoverPasswordComponent } from './components/recover-password/recover-password.component';
+import { AddAnimalComponent } from './components/add-animal/add-animal.component';
 
 
 @NgModule({
@@ -56,6 +57,7 @@ import { RecoverPasswordComponent } from './components/recover-password/recover-
     LoginComponent,
     RegisterComponent,
     RecoverPasswordComponent,
+    AddAnimalComponent
   ],
   imports: [
     BrowserModule,
