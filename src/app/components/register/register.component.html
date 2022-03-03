@@ -1,6 +1,14 @@
 
 <div id="register-form">
     <h1>Register</h1>
+    <span id="name" class="p-float-label">
+        <input type="text" pInputText [(ngModel)]="name">
+        <label for="float-input">Name</label>
+    </span>
+    <span id="description" class="p-float-label">
+        <input type="text" pInputText [(ngModel)]="description">
+        <label for="float-input">Description</label>
+    </span>
     <span id="email" class="p-float-label">
         <input type="email" pInputText [(ngModel)]="email">
         <label for="float-input">Email</label>

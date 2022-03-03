@@ -23,6 +23,7 @@ p-dropdown .p-dropdown {
   top: 0;
   left: 0;
 
+  border-radius: 4px;
   box-shadow: 0 0 1em 0.1em #000;
 
   z-index: 9;
@@ -147,7 +148,23 @@ p-dropdown .p-dropdown {
 
 
 
+.add-animal-btn {
+  all: unset;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  place-items: center;
 
+  width: 3rem;
+  height: 3rem;
+  background-color: #06f;
+  border-radius: 50%;
+  border: solid 2px #fff;
+
+  font-size: 3rem;
+
+  cursor: pointer;
+}
 
 
 

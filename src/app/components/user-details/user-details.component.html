@@ -2,7 +2,7 @@
 <div id="user-container">
     <div class="user-card">
         <div class="user-name">
-            <img class="user-icon" src="assets/user-icon.png" alt="user-icon">
+            <img class="user-icon" [src]="user.image" alt="user-icon">
             {{ user.name }}
         </div>
         <div class="user-details">{{ user.details }}</div>
@@ -13,7 +13,9 @@
         <div class="parrots">{{ animalIcons.parrot }}:  {{ getUserAnimalCount().parrots }}</div>
     </div>
 
-    <p-button id="add-animal-btn" label="Add Favorite Animals" (click)="goToAddFavoriteAnimal()"></p-button>
+    <div class="buttons">
+        <p-button id="add-animal-btn" label="Add Favorite Animals" (click)="goToAddFavoriteAnimal()"></p-button>
+        <p-button id="edit-user-btn" label="Edit User Info" (click)="goToEditUser()"></p-button>
+    </div>
 
-    <p-button id="edit-user-btn" label="Edit User Info" (click)="goToEditUser()"></p-button>
 </div>

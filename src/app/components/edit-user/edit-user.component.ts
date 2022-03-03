@@ -29,6 +29,9 @@ export class EditUserComponent implements OnInit {
   ) {}
 
   async ngOnInit() {
+    // Import PrimeNg stylesheet inside component
+    this.utils.loadAndAttachCSSModuleToHost(this.host, '/styles.css')
+
     // Load default stylesheet
     const {defaultCSSPath} = AppComponent
     this.utils.loadAndAttachCSSModuleToHost(this.host, defaultCSSPath)
@@ -38,7 +41,7 @@ export class EditUserComponent implements OnInit {
   }
 
   async handleInputFile(event) {
-    const [file] = event.target.files
+    const [file] = event.currentFiles
     this.user.image = this.userService.loadingImage
 
     const fileUrl = await this.userService.uploadFile(file, 'users', `${this.user.name}-${Date.now()}`)

@@ -10,7 +10,9 @@
         optionLabel="name"
     ></p-dropdown>
     Check all the animals published for everyone
+    <button class="add-animal-btn" (click)="goTo('add-animal')">+</button>
 </div>
+
 
 <div id="animals-list">
     <div class="animal-card" *ngFor="let animal of animals" (click)="goTo('animal/' + animal.id)">

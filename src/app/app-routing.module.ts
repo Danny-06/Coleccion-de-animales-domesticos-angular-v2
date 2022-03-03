@@ -10,6 +10,7 @@ import { LoginComponent } from './components/login/login.component';
 import { AuthGuard, redirectLoggedInTo, redirectUnauthorizedTo } from '@angular/fire/auth-guard'
 import { RegisterComponent } from './components/register/register.component';
 import { RecoverPasswordComponent } from './components/recover-password/recover-password.component';
+import { AddAnimalComponent } from './components/add-animal/add-animal.component';
 
 
 const redirectUnauthorizedToLogin = () => redirectUnauthorizedTo(['login'])
@@ -60,6 +61,12 @@ const routes: Routes = [
   {
     path: 'edit-user',
     component: EditUserComponent,
+    canActivate: [AuthGuard],
+    data: { authGuardPipe: redirectUnauthorizedToLogin }
+  },
+  {
+    path: 'add-animal',
+    component: AddAnimalComponent,
     canActivate: [AuthGuard],
     data: { authGuardPipe: redirectUnauthorizedToLogin }
   },

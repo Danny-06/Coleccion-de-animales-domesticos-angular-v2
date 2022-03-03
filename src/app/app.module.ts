@@ -20,6 +20,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { InputTextareaModule } from 'primeng/inputtextarea';
 import { ButtonModule } from 'primeng/button';
 import { DropdownModule } from 'primeng/dropdown';
+import {FileUploadModule} from 'primeng/fileupload';
 
 // Dependency animation for some PrimeNg components
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -72,6 +73,7 @@ import { RecoverPasswordComponent } from './components/recover-password/recover-
     InputTextareaModule,
     ButtonModule,
     DropdownModule,
+    FileUploadModule,
 
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireStorageModule,
