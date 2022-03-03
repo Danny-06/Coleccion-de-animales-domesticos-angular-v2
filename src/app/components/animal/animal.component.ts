@@ -34,9 +34,12 @@ export class AnimalComponent implements OnInit {
 
     const id = this.activatedRoute.snapshot.paramMap.get('id')
 
-    if (!id) return console.log(`ID is ${id}`)
+    if (!id) return
 
     this.animal = await this.animalService.getAnimal(id)
+
+    if (!this.animal) return this.router.navigateByUrl('main')
+
     if (!this.animal.shortDescription) this.animal.shortDescription = 'Short Description no available' 
     if (!this.animal.description) this.animal.description = 'Description no available'
   }

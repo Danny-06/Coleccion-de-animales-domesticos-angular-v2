@@ -6,7 +6,7 @@ export class Animal {
   description: string = ''
   image: string = ''
   sex: 'M' | 'F' = 'M'
-  age: number | null = null
+  age: number | null = 0
   vaccinated: boolean = false
 
   imageStyle: string = ''
