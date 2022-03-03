@@ -29,6 +29,22 @@ router-outlet {
   cursor: pointer;
 }
 
+.nav-item:hover,
+.nav-item:active {
+  background-color: #c243d1;
+}
+
+
+.log-out {
+  background-color: #af1c1c;
+}
+
+.log-out:hover,
+.log-out:active {
+  background-color: #f00;
+}
+
+
 
 app-main,
 app-animal,
@@ -55,8 +71,4 @@ app-animal {
 app-user {
   width: 100%;
   padding-bottom: 10rem;
-}
-
-.log-out {
-  background-color: #af1c1c;
 }
