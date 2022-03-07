@@ -4,6 +4,13 @@ En esta aplicación encontrarás un listado de animales domésticos de los cuale
 podrás ver su nombre, el tipo de animal que es y una descripción breve de cada uno.
 
 
+La aplicación cuenta con un sistema de registro e inicio de sesión
+#
+![image](https://user-images.githubusercontent.com/72435753/157020540-7adc5cd9-e6d3-4127-982e-7c9bb79a80c9.png)
+
+![image](https://user-images.githubusercontent.com/72435753/157020622-5f7fddee-9262-400f-858d-093dd06dd3bb.png)
+
+
 En la pantalla inicial podemos ver el listado completo de los animales y encontramos tanto gatos, como perros y loros,
 y tambien podemos añadir más animales a la lista global.
 #
