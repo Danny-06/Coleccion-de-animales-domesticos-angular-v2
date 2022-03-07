@@ -16,10 +16,10 @@ Al hacer click en alguno de los animales, nos lleva a una página donde podemos 
 #
 ![image](https://user-images.githubusercontent.com/72435753/157012684-983de7c1-3a68-469f-a384-03192275aa09.png)
 
-Desde la barra de navegación podemos acceder a la pestaña de usuarios donde podremos crear los nuestros propios
-y borrar y editar los que nos apatezcan.
+Desde la barra de navegación podemos acceder al perfil y editar nuestro foto o descripción
+y modificar nuestra lista de animales favoritos
 #
-![image](https://user-images.githubusercontent.com/72435753/145718158-bf608fe0-8e1d-47e0-89bb-922ca2d0417f.png)
+![image](https://user-images.githubusercontent.com/72435753/157013404-25d7628b-0961-4269-bfaf-ec526055b633.png)
 
 Al crear un usuario necesitamos obligatoriamente asignarle un nombre y opcionalmente le podemos añadir un campo
 de detalles para especificar el proposito del usuario.
