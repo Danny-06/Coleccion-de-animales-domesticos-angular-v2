@@ -4,9 +4,13 @@ En esta aplicación encontrarás un listado de animales domésticos de los cuale
 podrás ver su nombre, el tipo de animal que es y una descripción breve de cada uno.
 
 
-En la pantalla inicial podemos ver el listado completo de los animales y encontramos tanto gatos, como perros y loros. 
+En la pantalla inicial podemos ver el listado completo de los animales y encontramos tanto gatos, como perros y loros,
+y tambien podemos añadir más animales a la lista global.
 #
 ![image](https://user-images.githubusercontent.com/72435753/157011874-3b5df331-706b-4090-8e7b-fcc87689a013.png)
+
+![image](https://user-images.githubusercontent.com/72435753/157018815-2ec0624c-eaea-4e17-96d4-9a0bdb0d9fb8.png)
+
 
 Además podemos filtrarlos por especie o por favoritos para enfocarnos mejor.
 #
@@ -22,14 +26,3 @@ y modificar nuestra lista de animales favoritos
 ![image](https://user-images.githubusercontent.com/72435753/157013404-25d7628b-0961-4269-bfaf-ec526055b633.png)
 
 ![image](https://user-images.githubusercontent.com/72435753/157017872-6adef378-b81d-4088-850c-5316cc64f5f2.png)
-
-#
-![image](https://user-images.githubusercontent.com/72435753/145718260-3e40cd23-3139-4ba5-9192-e48b2b0b89d2.png)
-
-Desde la pestaña de usuarios, si hacemos click en uno de ellos, se nos mostrará toda la información del usuario
-y mediante un botón tendremos la opción de asignarle animales favoritos desde una pantalla similar a la principal.
-#
-![image](https://user-images.githubusercontent.com/72435753/145718176-356cf2ad-ec5c-434d-be28-a818b52a87cf.png)
-
-#
-![image](https://user-images.githubusercontent.com/72435753/145718243-edafb3f7-0b33-4093-b70e-562816aeea6e.png)
