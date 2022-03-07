@@ -6,7 +6,7 @@ podrás ver su nombre, el tipo de animal que es y una descripción breve de cada
 
 En la pantalla inicial podemos ver el listado completo de los animales y encontramos tanto gatos, como perros y loros. 
 #
-![image](https://user-images.githubusercontent.com/72435753/145718105-8ae5bfdb-00b8-4636-b6b4-d46458377dd5.png)
+![image](https://user-images.githubusercontent.com/72435753/157011874-3b5df331-706b-4090-8e7b-fcc87689a013.png)
 
 Además podemos filtrarlos por especie para enfocarnos mejor.
 #
