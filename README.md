@@ -8,13 +8,13 @@ En la pantalla inicial podemos ver el listado completo de los animales y encontr
 #
 ![image](https://user-images.githubusercontent.com/72435753/157011874-3b5df331-706b-4090-8e7b-fcc87689a013.png)
 
-Además podemos filtrarlos por especie para enfocarnos mejor.
+Además podemos filtrarlos por especie o por favoritos para enfocarnos mejor.
 #
-![image](https://user-images.githubusercontent.com/72435753/145718135-3bcccb0e-6b62-4caf-94b9-2303f44e4fb7.png)
+![image](https://user-images.githubusercontent.com/72435753/157012414-9b554d13-7843-42ea-a9bd-ec82125a9f31.png)
 
-Al hacer click en alguno de los animales, nos lleva a una página donde podemos ver al animas con una descripción más detallada.
+Al hacer click en alguno de los animales, nos lleva a una página donde podemos ver al animal con una descripción más detallada.
 #
-![image](https://user-images.githubusercontent.com/72435753/145718441-b97a136b-cf7d-4891-874a-dc29ab3e27c5.png)
+![image](https://user-images.githubusercontent.com/72435753/157012684-983de7c1-3a68-469f-a384-03192275aa09.png)
 
 Desde la barra de navegación podemos acceder a la pestaña de usuarios donde podremos crear los nuestros propios
 y borrar y editar los que nos apatezcan.
