@@ -9,12 +9,11 @@ y tambien podemos añadir más animales a la lista global.
 #
 ![image](https://user-images.githubusercontent.com/72435753/157011874-3b5df331-706b-4090-8e7b-fcc87689a013.png)
 
+![image](https://user-images.githubusercontent.com/72435753/157012414-9b554d13-7843-42ea-a9bd-ec82125a9f31.png)
+
 ![image](https://user-images.githubusercontent.com/72435753/157018815-2ec0624c-eaea-4e17-96d4-9a0bdb0d9fb8.png)
 
 
-Además podemos filtrarlos por especie o por favoritos para enfocarnos mejor.
-#
-![image](https://user-images.githubusercontent.com/72435753/157012414-9b554d13-7843-42ea-a9bd-ec82125a9f31.png)
 
 Al hacer click en alguno de los animales, nos lleva a una página donde podemos ver al animal con una descripción más detallada.
 #
