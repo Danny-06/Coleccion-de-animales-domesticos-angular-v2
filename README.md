@@ -21,10 +21,7 @@ y modificar nuestra lista de animales favoritos
 #
 ![image](https://user-images.githubusercontent.com/72435753/157013404-25d7628b-0961-4269-bfaf-ec526055b633.png)
 
-Al crear un usuario necesitamos obligatoriamente asignarle un nombre y opcionalmente le podemos añadir un campo
-de detalles para especificar el proposito del usuario.
-#
-![image](https://user-images.githubusercontent.com/72435753/145718170-ad670f89-30b9-4aee-a7e0-c5735e95be86.png)
+![image](https://user-images.githubusercontent.com/72435753/157017872-6adef378-b81d-4088-850c-5316cc64f5f2.png)
 
 #
 ![image](https://user-images.githubusercontent.com/72435753/145718260-3e40cd23-3139-4ba5-9192-e48b2b0b89d2.png)
